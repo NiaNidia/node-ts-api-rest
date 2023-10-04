@@ -1,0 +1,13 @@
+###
+GET http://localhost:3000/api/v1/usuarios
+###
+POST http://localhost:3000/api/v1/usuarios
+Content-Type: application/json
+
+{
+"id":7,
+"nombre": "Elmer cerebro"
+}
+
+###
+GET https://apisimpsons.fly.dev/api/personajes
